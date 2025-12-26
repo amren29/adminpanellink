@@ -1,0 +1,232 @@
+[
+  {
+    "id": "notif_1766456028669",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-1320 placed for Eastmy Media",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-1320",
+    "createdAt": "2025-12-23T02:13:48.669Z"
+  },
+  {
+    "id": "notif_1766455493892",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-6377 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-6377",
+    "createdAt": "2025-12-23T02:04:53.892Z"
+  },
+  {
+    "id": "notif_1766455352667",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-6377 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-6377",
+    "createdAt": "2025-12-23T02:02:32.667Z"
+  },
+  {
+    "id": "notif_1766455178711",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-6377 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-6377",
+    "createdAt": "2025-12-23T01:59:38.711Z"
+  },
+  {
+    "id": "notif_1766455101385",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-6377 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-6377",
+    "createdAt": "2025-12-23T01:58:21.385Z"
+  },
+  {
+    "id": "notif_1766387780076",
+    "type": "finance",
+    "title": "Wallet Credited",
+    "message": "Manual credit of RM1000 for Ali bin Hassan",
+    "isRead": true,
+    "link": "/agents/3a7c535a-e8f9-40de-bb40-fc34b8fd02ce",
+    "createdAt": "2025-12-22T07:16:20.076Z"
+  },
+  {
+    "id": "notif_1766385986773",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-2827 placed for MOHAMED AMRIN",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-2827",
+    "createdAt": "2025-12-22T06:46:26.773Z"
+  },
+  {
+    "id": "notif_1766381677849",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000002",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-22T05:34:37.849Z"
+  },
+  {
+    "id": "notif_1766381170948",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000007",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-22T05:26:10.948Z"
+  },
+  {
+    "id": "notif_1766327728925",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-9892 placed for Tan Wei Ming",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-9892",
+    "createdAt": "2025-12-21T14:35:28.925Z"
+  },
+  {
+    "id": "notif_1766323999289",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000002",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-21T13:33:19.289Z"
+  },
+  {
+    "id": "notif_1766323578290",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000001",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-21T13:26:18.290Z"
+  },
+  {
+    "id": "notif_1766323504174",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-6371 placed for Debug User",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-6371",
+    "createdAt": "2025-12-21T13:25:04.174Z"
+  },
+  {
+    "id": "notif_1766322680723",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-6371 placed for Debug User",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-6371",
+    "createdAt": "2025-12-21T13:11:20.723Z"
+  },
+  {
+    "id": "notif_1766321596054",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000001",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-21T12:53:16.054Z"
+  },
+  {
+    "id": "notif_1766321263577",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000001",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-21T12:47:43.577Z"
+  },
+  {
+    "id": "notif_1766316070506",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000001",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-21T11:21:10.506Z"
+  },
+  {
+    "id": "notif_1766206264496",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000001",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-20T04:51:04.496Z"
+  },
+  {
+    "id": "notif_1766205879275",
+    "type": "order",
+    "title": "Proof Approved",
+    "message": "Customer approved proof for ORD-000001",
+    "isRead": true,
+    "link": "/",
+    "createdAt": "2025-12-20T04:44:39.275Z"
+  },
+  {
+    "id": "notif_1766204569337",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-4993 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-4993",
+    "createdAt": "2025-12-20T04:22:49.337Z"
+  },
+  {
+    "id": "notif_1766204187475",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-4993 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-4993",
+    "createdAt": "2025-12-20T04:16:27.475Z"
+  },
+  {
+    "id": "notif_1766203909197",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-4993 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-4993",
+    "createdAt": "2025-12-20T04:11:49.197Z"
+  },
+  {
+    "id": "notif_1766202917703",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-4993 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-4993",
+    "createdAt": "2025-12-20T03:55:17.703Z"
+  },
+  {
+    "id": "notif_1766202169936",
+    "type": "order",
+    "title": "New Order Received",
+    "message": "Order #ORD-2025-4993 placed for M. Nazrey",
+    "isRead": true,
+    "link": "/",
+    "resourceId": "ORD-2025-4993",
+    "createdAt": "2025-12-20T03:42:49.936Z"
+  }
+]

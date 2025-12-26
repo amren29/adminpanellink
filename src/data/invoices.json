@@ -1,0 +1,48 @@
+[
+  {
+    "invoiceNumber": "INV-2025-2478",
+    "customerId": "fb6d3cdf-ec2a-4e9d-95ac-72f5b03e4ce4",
+    "customerName": "Siti Aminah",
+    "customerEmail": "siti@example.com",
+    "lineItems": [
+      {
+        "id": "li-1765986239096-ep443gvhk",
+        "description": "asdsdad",
+        "quantity": 1,
+        "unitPrice": 25,
+        "total": 25
+      }
+    ],
+    "subtotal": 25,
+    "taxRate": 6,
+    "taxAmount": 1.5,
+    "total": 26.5,
+    "status": "Draft",
+    "createdDate": "2025-12-17",
+    "dueDate": "2026-01-16",
+    "id": "inv-1765986246408"
+  },
+  {
+    "invoiceNumber": "INV-2025-4486",
+    "customerId": "agent-001",
+    "customerName": "Ahmad Razak bin Abdullah",
+    "customerEmail": "ahmad.razak@agents.com",
+    "lineItems": [
+      {
+        "id": "li-1765985247735-pl9om26vp",
+        "description": "aasd",
+        "quantity": 1,
+        "unitPrice": 12,
+        "total": 12
+      }
+    ],
+    "subtotal": 12,
+    "taxRate": 6,
+    "taxAmount": 0.72,
+    "total": 12.72,
+    "status": "Sent",
+    "createdDate": "2025-12-17",
+    "dueDate": "2026-01-16",
+    "id": "inv-1765985257003"
+  }
+]

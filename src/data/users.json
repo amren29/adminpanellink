@@ -1,0 +1,44 @@
+[
+  {
+    "id": "agent-001",
+    "role": "agent",
+    "fullName": "Ahmad Razak bin Abdullah",
+    "email": "ahmad.razak@agents.com",
+    "walletBalance": 6352.68,
+    "agentTier": "Gold",
+    "agentStatus": "active",
+    "pricingSettings": {
+      "discountPercent": 10,
+      "fixedPriceListId": "tier1"
+    },
+    "avatar": "/images/user/user-01.jpg"
+  },
+  {
+    "id": "agent-002",
+    "role": "agent",
+    "fullName": "Siti Nurhaliza binti Hassan",
+    "email": "siti.nurhaliza@salesteam.my",
+    "walletBalance": 538.34,
+    "agentTier": "Platinum",
+    "agentStatus": "active",
+    "pricingSettings": {
+      "discountPercent": 15,
+      "fixedPriceListId": "tier2"
+    },
+    "avatar": "/images/user/user-02.jpg"
+  },
+  {
+    "id": "agent-003",
+    "role": "agent",
+    "fullName": "Lee Wei Ming",
+    "email": "weiming.lee@gmail.com",
+    "walletBalance": 200,
+    "agentTier": "Silver",
+    "agentStatus": "pending_deposit",
+    "pricingSettings": {
+      "discountPercent": 5,
+      "fixedPriceListId": "tier3"
+    },
+    "avatar": "/images/user/user-03.jpg"
+  }
+]
