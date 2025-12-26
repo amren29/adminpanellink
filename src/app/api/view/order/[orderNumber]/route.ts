@@ -8,7 +8,7 @@ export async function GET(
     try {
         const { orderNumber } = await params;
 
-        const order = await prisma.order.findUnique({
+        const order = await prisma.order.findFirst({
             where: { orderNumber },
             include: {
                 items: true,
