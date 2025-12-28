@@ -4,7 +4,17 @@ import bcrypt from "bcrypt";
 
 export async function POST(request: NextRequest) {
     try {
-        const { name, email, password, phone } = await request.json();
+        let body;
+        try {
+            body = await request.json();
+        } catch (e) {
+            return NextResponse.json(
+                { error: "Invalid JSON body" },
+                { status: 400 }
+            );
+        }
+
+        const { name, email, password, phone } = body;
 
         // Validation
         if (!name || !email || !password || !phone) {
@@ -22,9 +32,18 @@ export async function POST(request: NextRequest) {
         }
 
         // Check if email already exists
-        const existingUser = await prisma.user.findUnique({
-            where: { email: email.toLowerCase() },
-        });
+        let existingUser;
+        try {
+            existingUser = await prisma.user.findUnique({
+                where: { email: email.toLowerCase() },
+            });
+        } catch (dbError) {
+            console.error("Database error checking user:", dbError);
+            return NextResponse.json(
+                { error: "Database connection failed" },
+                { status: 500 }
+            );
+        }
 
         if (existingUser) {
             return NextResponse.json(
@@ -34,28 +53,50 @@ export async function POST(request: NextRequest) {
         }
 
         // Hash password
-        const passwordHash = await bcrypt.hash(password, 10);
+        let passwordHash;
+        try {
+            passwordHash = await bcrypt.hash(password, 10);
+        } catch (hashError) {
+            console.error("Bcrypt hashing error:", hashError);
+            return NextResponse.json(
+                { error: "Security processing failed" },
+                { status: 500 }
+            );
+        }
+
+        // Handle phone format safely
+        const phoneStr = String(phone);
+        const formattedPhone = phoneStr.startsWith("+60") ? phoneStr : `+60${phoneStr.replace(/^0+/, '')}`;
 
         // Create user (without organization for now)
-        const user = await prisma.user.create({
-            data: {
-                name,
-                email: email.toLowerCase(),
-                passwordHash,
-                phone: phone.startsWith("+60") ? phone : `+60${phone}`,
-                role: "admin", // First user is admin
-                isActive: true,
-            },
-        });
+        try {
+            const user = await prisma.user.create({
+                data: {
+                    name,
+                    email: email.toLowerCase(),
+                    passwordHash,
+                    phone: formattedPhone,
+                    role: "admin", // First user is admin
+                    isActive: true,
+                },
+            });
 
-        return NextResponse.json({
-            success: true,
-            userId: user.id,
-        });
+            return NextResponse.json({
+                success: true,
+                userId: user.id,
+            });
+        } catch (createError) {
+            console.error("Prisma create user error:", createError);
+            return NextResponse.json(
+                { error: "Failed to create user record" },
+                { status: 500 }
+            );
+        }
+
     } catch (error) {
-        console.error("Registration Step 1 Error:", error);
+        console.error("Registration Step 1 Unhandled Error:", error);
         return NextResponse.json(
-            { error: "Failed to create account" },
+            { error: "Internal server error" },
             { status: 500 }
         );
     }
