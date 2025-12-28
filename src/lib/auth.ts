@@ -61,7 +61,7 @@ export const authOptions: NextAuthOptions = {
                         id: admin.id,
                         name: admin.name,
                         email: admin.email,
-                        role: admin.role,
+                        role: 'admin' as const, // Normalize superadmin to admin for NextAuth
                         department: null,
                         avatarUrl: admin.avatarUrl,
                         allowedRoutes: [],
